@@ -10,6 +10,7 @@
     <header>
         <h1>Bonjour, je suis [Océane]</h1>
         <p>| Designer | Créative | Photographe Amatrice | Direction Artistique |</p>
+        <a href="#contact" class="btn">Me Contacter</a>
     </header>
 
     <nav>
@@ -23,13 +24,15 @@
         <p>Animée par une créativité et une sensibilité artistique sans limite, je m'épanouis à travers la création graphique, la photographie, la direction artistique et l'art de la communication.</p>
     </section>
 
-    <section id="projects">
-        <h2>Mes Projets</h2>
-        <div class="project">
+<section id="projects" class="section">
+        <div class="container">
+            <h2>Mes Projets</h2>
+            <div class="projects-grid">
+                <div class="project-card">
             <h3>Projet 1</h3>
             <p>Description rapide de ce projet.</p>
-        </div>
-        <div class="project">
+         </div>
+                <div class="project-card">
             <h3>Projet 2</h3>
             <p>Description rapide de ce projet.</p>
         </div>
@@ -43,7 +46,7 @@
     </section>
 
     <footer>
-        <p>© 2025 Ton Nom</p>
+        <p>© 2025 Oceane Corvaisier . Tous droits réservés.</p>
     </footer>
 
     <script src="script.js"></script>
